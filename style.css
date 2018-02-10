@@ -10,4 +10,18 @@ img {
   margin: 0 10px;
   width: 200px;
   height: 200px;
+  opacity: 0.75;
+  transition: box-shadow 0.5s, opacity 0.5s;
+}
+
+h1 {
+	transition: color ls;
+}
+
+h1:hover {
+	color: #ff0000;
+}
+img:hover{
+	opacity: 1.00;
+	box-shadow:0 0 5px 5px #808080;
 }
